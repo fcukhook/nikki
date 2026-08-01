@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>Friendship Day Surprise</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-..."
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css?v=2" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  </head>
+  <body>
+    <div class="bg-grid"></div>
+    <div class="floating-hearts" id="floatingHearts"></div>
+    <div class="particles" id="particles"></div>
+    <div class="bg-orb orb-one"></div>
+    <div class="bg-orb orb-two"></div>
+    <div class="bg-orb orb-three"></div>
+
+    <section class="hero" id="hero">
+      <div class="hero-content">
+        <div class="gift-wrapper">
+          <div class="gift-box">
+            <div class="lid"></div>
+            <div class="box"></div>
+            <div class="ribbon"></div>
+            <div class="glow-spark"></div>
+          </div>
+        </div>
+        <h1>💖 Belated Happy Friendship Day, My Dear Friend! 💖</h1>
+        <p class="subtitle">
+          I may be a little late, but my appreciation for our friendship is timeless.
+        </p>
+        <a id="openSurprise" class="primary-btn" href="reveal.html">
+          <span>Click to Open Your Surprise</span>
+          <i class="fa-solid fa-gift"></i>
+        </a>
+      </div>
+    </section>
+
+    <section class="reveal" id="reveal">
+      <div class="banner banner-left"></div>
+      <div class="banner banner-right"></div>
+      <div class="message-card">
+        <div class="card-glow"></div>
+        <div class="message-lines"></div>
+      </div>
+    </section>
+
+
+    <audio id="bgMusic" loop preload="auto">
+      <source src="manasa manasa.mp3" type="audio/mpeg" />
+    </audio>
+
+    <script src="script.js?v=2"></script>
+  </body>
+</html>
